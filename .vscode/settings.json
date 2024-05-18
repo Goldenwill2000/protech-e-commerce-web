@@ -1,0 +1,6 @@
+{
+    "prettier.configPath": "",
+    "prettier.documentSelectors": [
+        "{   \"[javascript]\": {     \"editor.formatOnSave\": false   } }"
+    ]
+}

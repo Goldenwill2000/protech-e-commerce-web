@@ -1,6 +1,6 @@
 {
-  "name": "osas-reactjs-template",
-  "version": "0.1.0",
+  "name": "protech-e-commerce",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
