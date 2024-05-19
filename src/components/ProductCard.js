@@ -26,7 +26,7 @@ export default function ProductCard({
             setOnHover(false)
         }}
         >
-            <img className="product-thumbnail" src={DefaultImage}/>
+            <img className="product-thumbnail" src={product.imageUrl}/>
             <div className="product-info-wrapper">
                 <div className="product-title">{product.name}</div>
                 <div className="product-price"> 

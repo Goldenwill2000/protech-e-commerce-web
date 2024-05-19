@@ -11,6 +11,7 @@ export default function ProductPage() {
 
     const handleProductSelect = (product) => {
         addProducts(prevSelectedProducts => [...prevSelectedProducts, product]);
+        localStorage.setItem("cart", JSON.stringify(selectedProducts));
     };
 
     useEffect(() => {

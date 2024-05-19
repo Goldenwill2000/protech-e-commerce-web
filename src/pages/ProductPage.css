@@ -1,7 +1,8 @@
 .product-page-background{
-    background:white;
+    background: linear-gradient(to right, #56ccf2, #2f80ed, #6fcf97); /* Blue to Green Gradient */
+
     height:100dvh;
-    height:100%;
+    height:100vh;
     width:100%;
     display:flex;
     align-items: flex-start;
@@ -11,6 +12,7 @@
     user-select: none;
     -webkit-user-drag: none;
     padding:1em;
+    overflow:scroll;
 
 }
 
