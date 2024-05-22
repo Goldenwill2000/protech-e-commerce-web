@@ -1,0 +1,120 @@
+.dialog-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 25;
+
+}
+
+.dialog-container {
+  border-radius: 12px;
+  background: #000000ff;
+  border: 2px solid gold;
+  box-shadow: 0px 16px 57px rgb(37 5 31 / 75%);
+  filter: drop-shadow(0px 16px 57px rgba(37, 5, 31, 0.75));
+  padding: 4em;
+  //min width 350px in mobile mode but 600 in landscape
+  min-width: 450px;
+
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+
+@media (max-width: 599px) {
+  .dialog-container {
+    min-width: 350px;
+  }
+}
+.dialog-icon {
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.dialog-title {
+  color: black;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.dialog-description {
+  color: black;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 1em;
+  text-align: center;
+}
+
+.dialog-button {
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #490b3a;
+  background: radial-gradient(
+    69.51% 247.14% at 50.95% -14.9%,
+    #ede6d5 0%,
+    #d5cbb2 19.27%,
+    #c3b597 40%,
+    #b6a583 59%,
+    #af9c78 79%,
+    #ac9974 100%
+  );
+}
+
+.dialog-button:hover {
+  box-shadow: 0px 4px 8px 0px #00000040;
+}
+
+.dialog-parent {
+  height: 100vh;
+  width: 100%;
+  background: #00000080;
+  position: absolute;
+  top: 0;
+}
+
+.dialog-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1em;
+  padding-top: 1em;
+  box-sizing: border-box;
+}
+
+//GENERIC
+
+.dialog-container-generic {
+  background: white;
+  background-size: 100% 100%;
+  padding: 4em 6em;
+  max-width: 250px;
+  min-width: 150px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px 0px #00000040;
+
+}
+
+@media (max-width: 500px) {
+  .dialog-container-generic {
+    padding: 4em 2em;
+    background-size: cover;
+  }
+}
+
+.dialog-description-generic {
+  color: black;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 1em ;
+  text-align: center;
+}

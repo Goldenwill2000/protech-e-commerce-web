@@ -10,6 +10,114 @@
     justify-content: flex-start;
     flex-direction: column;
     box-sizing: border-box;
-    padding:1em;
+    /* padding:1em; */
+    gap:16px;
 }
 
+.cart-item-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+
+.lottie{
+    border:none;
+    position:absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%); 
+
+}
+
+.price-calculator{
+    position:fixed;
+    bottom:0;
+    background:white;
+    padding:1em;
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: 600;
+}
+
+.cart-card-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+}
+
+.shop-now-button{
+    background:white;
+    border-radius: 12px;
+    padding:0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+
+.shop-now-button {
+    background: white;
+    border-radius: 12px;
+    padding: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    cursor: pointer;
+}
+
+.shop-now-button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger and darker shadow on hover */
+    background-color: #f0f0f0; /* Slightly darker background on hover */
+}
+
+.price-calculator{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+
+
+
+.checkout-button{
+    background: linear-gradient(to right, #56ccf2, #2f80ed, #6fcf97); /* Blue to Green Gradient */
+    border-radius: 8px;
+    cursor: pointer;
+    padding:0.5em 1em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+
+
+.disabled-button {
+    pointer-events: none; /* Makes the button unclickable */
+    filter: grayscale(100%); /* Applies a grayscale filter to the button */
+    opacity: 0.6; /* Adjusts the opacity to give a disabled look */
+    cursor: not-allowed; /* Changes the cursor to indicate the button is disabled */
+}
+
+.clear-cart-button{
+    background: crimson; /* Blue to Green Gradient */
+    border-radius: 8px;
+    cursor: pointer;
+    padding:0.5em 1em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    cursor: pointer;
+    margin-right:1em;
+}

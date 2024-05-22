@@ -1,6 +1,5 @@
 .product-page-background{
     background: linear-gradient(to right, #56ccf2, #2f80ed, #6fcf97); /* Blue to Green Gradient */
-
     height:100dvh;
     height:100vh;
     width:100%;
@@ -11,8 +10,9 @@
     box-sizing: border-box;
     user-select: none;
     -webkit-user-drag: none;
-    padding:1em;
+
     overflow:scroll;
+
 
 }
 
@@ -22,6 +22,9 @@
     gap: 16px;
     width:100%;
     margin-bottom:10em;
+    padding:1em;
+    box-sizing: border-box;
+    margin-top:6em;
 }
 
 .nav-bar{
@@ -37,9 +40,16 @@
     justify-content: space-between;
     align-items: center;
     width:100%;
+ padding:0.4em 1em;
+ box-sizing: border-box;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example box shadow */
+
+
 }
 
 .cart-icon-wrapper{
     position:relative;
+    cursor:pointer;
+    margin-right: 1em;
     
 }
