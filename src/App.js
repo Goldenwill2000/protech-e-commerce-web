@@ -16,19 +16,20 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "protech-e-commerce-web/",
       element:<ProductPage/>,
     },
+  
     {
-      path: "products",
+      path: "protech-e-commerce-web/products",
       element: <ProductPage/>,
     },
     {
-      path: "cart",
+      path: "protech-e-commerce-web/cart",
       element: <CartPage/>,
     },
     {
-      path: "checkout",
+      path: "protech-e-commerce-web/checkout",
       element: <CheckoutPage/>,
     },
   ]);
