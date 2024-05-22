@@ -14,7 +14,7 @@ export default function CheckoutPage() {
            <iframe style={{ border:"none"}}
             src="https://lottie.host/embed/b1e376f9-1e93-490d-b731-f3fb8926b714/BjShctV9kL.json"></iframe>
               <h1 className="shop-now-button" onClick={()=>{
-                            navigate("/products")
+                            navigate("/protech-e-commerce-web/products")
                         }}> BACK TO SHOPPING </h1>
         
         </div>

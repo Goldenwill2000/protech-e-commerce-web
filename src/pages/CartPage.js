@@ -82,7 +82,7 @@ export default function CartPage() {
                 }}>
                     <img 
                     onClick={()=>{
-                        navigate("/products")
+                        navigate("/protech-e-commerce-web/products")
                     }}
                     style={{
                         padding:"1em",
@@ -135,7 +135,7 @@ export default function CartPage() {
                         <iframe style={{ border: "none" }} src="https://lottie.host/embed/23cbd3dc-e900-4e42-ab3a-81d78247bb6b/urBfhI3lZ7.json" />
                         <h1> Cart is Empty </h1>
                         <h1 className="shop-now-button" onClick={()=>{
-                            navigate("/products")
+                            navigate("/protech-e-commerce-web/products")
                         }}> SHOP NOW </h1>
                     </div>}
                 </div>
@@ -143,7 +143,7 @@ export default function CartPage() {
             <div className="price-calculator">
                 Total: RM {totalPrice}
                 <div onClick={()=>{
-                    navigate("/checkout")
+                    navigate("protech-e-commerce-web//checkout")
                     clearCart()
                 }}className={`checkout-button ${totalPrice===0?"disabled-button":""}`}>
                     Checkout

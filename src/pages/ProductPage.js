@@ -51,7 +51,7 @@ export default function ProductPage() {
                 <h1>Product List</h1>
                 <div className="cart-icon-wrapper">
                     <div className="cart-icon" onClick={() => {
-                        navigate("/cart")
+                        navigate("/protech-e-commerce-web/cart")
                     }}>
                         <img src={CartIcon} alt="Cart" />
                         {selectedProducts.length > 0 && (
