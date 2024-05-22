@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/protech-e-commerce-web/static/css/main.ec51507c.css",
-    "main.js": "/protech-e-commerce-web/static/js/main.623cdfc9.js",
+    "main.css": "/protech-e-commerce-web/static/css/main.d9e3915e.css",
+    "main.js": "/protech-e-commerce-web/static/js/main.6019b6e3.js",
     "static/js/787.479933e7.chunk.js": "/protech-e-commerce-web/static/js/787.479933e7.chunk.js",
-    "static/media/logo.png": "/protech-e-commerce-web/static/media/logo.6a3e2c05ae72e9ea2f35.png",
+    "static/media/chicken.jpeg": "/protech-e-commerce-web/static/media/chicken.555a9d3cfa2dac59de8c.jpeg",
+    "static/media/bread.jpeg": "/protech-e-commerce-web/static/media/bread.294e4780a4913ebd8793.jpeg",
+    "static/media/apple.jpeg": "/protech-e-commerce-web/static/media/apple.69bfcfddc8b07cae87cd.jpeg",
+    "static/media/yogurt.jpeg": "/protech-e-commerce-web/static/media/yogurt.ad499d40ba32a6bf6653.jpeg",
+    "static/media/milk.jpeg": "/protech-e-commerce-web/static/media/milk.e5ec8edb52e3bf70de66.jpeg",
+    "static/media/butter.jpeg": "/protech-e-commerce-web/static/media/butter.a94af59636d27f5cf057.jpeg",
+    "static/media/banana.jpeg": "/protech-e-commerce-web/static/media/banana.fab263059859e5704317.jpeg",
+    "static/media/cheese.jpeg": "/protech-e-commerce-web/static/media/cheese.cf92a6f33c23f3dcd0b7.jpeg",
+    "static/media/eggs.jpeg": "/protech-e-commerce-web/static/media/eggs.4c4831788e4cc9d834e9.jpeg",
+    "static/media/carrot.jpeg": "/protech-e-commerce-web/static/media/carrot.d9e8e934c151fa338d62.jpeg",
     "index.html": "/protech-e-commerce-web/index.html",
     "static/media/cart_icon.svg": "/protech-e-commerce-web/static/media/cart_icon.9fd981de41730c916c3a585299fb6697.svg",
-    "main.ec51507c.css.map": "/protech-e-commerce-web/static/css/main.ec51507c.css.map",
-    "main.623cdfc9.js.map": "/protech-e-commerce-web/static/js/main.623cdfc9.js.map",
+    "static/media/delete_icon.svg": "/protech-e-commerce-web/static/media/delete_icon.66d3958d6b48a544d1bea3644f8db8fb.svg",
+    "main.d9e3915e.css.map": "/protech-e-commerce-web/static/css/main.d9e3915e.css.map",
+    "main.6019b6e3.js.map": "/protech-e-commerce-web/static/js/main.6019b6e3.js.map",
     "787.479933e7.chunk.js.map": "/protech-e-commerce-web/static/js/787.479933e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec51507c.css",
-    "static/js/main.623cdfc9.js"
+    "static/css/main.d9e3915e.css",
+    "static/js/main.6019b6e3.js"
   ]
 }
