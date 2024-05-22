@@ -143,7 +143,7 @@ export default function CartPage() {
             <div className="price-calculator">
                 Total: RM {totalPrice}
                 <div onClick={()=>{
-                    navigate("protech-e-commerce-web//checkout")
+                    navigate("/protech-e-commerce-web/checkout")
                     clearCart()
                 }}className={`checkout-button ${totalPrice===0?"disabled-button":""}`}>
                     Checkout
