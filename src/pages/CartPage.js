@@ -4,6 +4,7 @@ import "./CartPage.css";
 import { Navigate, useNavigate } from "react-router-dom";
 import { HideDialog, ShowDialog } from '../utilities/EventBus';
 import { GetDialogPack } from '../configs/DialogConstants';
+import BackButton from "../assets/images/full/back_icon.svg"
 
 export default function CartPage() {
     const [selectedProducts, setSelectedProducts] = useState([]);
@@ -79,14 +80,22 @@ export default function CartPage() {
                     zIndex:2,
                     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1)" 
                 }}>
-                      <h3 style={{opacity:0,pointerEvents:"none"}}>Clear Cart</h3>
+                    <img 
+                    onClick={()=>{
+                        navigate("/products")
+                    }}
+                    style={{
+                        padding:"1em",
+                        cursor:"pointer"
+                    }}
+                        src={BackButton}/>
                     <h1>My Cart</h1>
                     <h3 className="clear-cart-button" style={{
                         opacity:totalPrice===0? 0:1,
-                        pointerEvents:totalPrice===0?"none": 'auto'
+                        pointerEvents:totalPrice===0?"none": 'auto',
+                    
                     }}
                         onClick={()=>{
-                        // clearCart()
                         ShowDialog(
                             GetDialogPack({
                                 showDialog: true,
