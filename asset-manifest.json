@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/protech-e-commerce-web/static/css/main.ccc422e9.css",
-    "main.js": "/protech-e-commerce-web/static/js/main.1a908305.js",
+    "main.js": "/protech-e-commerce-web/static/js/main.77914975.js",
     "static/js/787.479933e7.chunk.js": "/protech-e-commerce-web/static/js/787.479933e7.chunk.js",
     "static/media/chicken.jpeg": "/protech-e-commerce-web/static/media/chicken.555a9d3cfa2dac59de8c.jpeg",
     "static/media/bread.jpeg": "/protech-e-commerce-web/static/media/bread.294e4780a4913ebd8793.jpeg",
@@ -18,11 +18,11 @@
     "static/media/delete_icon.svg": "/protech-e-commerce-web/static/media/delete_icon.66d3958d6b48a544d1bea3644f8db8fb.svg",
     "static/media/back_icon.svg": "/protech-e-commerce-web/static/media/back_icon.d6d3143265cf42b7fc6f0367fe75dacc.svg",
     "main.ccc422e9.css.map": "/protech-e-commerce-web/static/css/main.ccc422e9.css.map",
-    "main.1a908305.js.map": "/protech-e-commerce-web/static/js/main.1a908305.js.map",
+    "main.77914975.js.map": "/protech-e-commerce-web/static/js/main.77914975.js.map",
     "787.479933e7.chunk.js.map": "/protech-e-commerce-web/static/js/787.479933e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccc422e9.css",
-    "static/js/main.1a908305.js"
+    "static/js/main.77914975.js"
   ]
 }
